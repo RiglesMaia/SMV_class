@@ -53,7 +53,7 @@ for arquivo_tiff, arquivo_shape in zip(arquivos_tiff, arquivos_shape):
     model = SVC()
 
     # Search space for hyperparameters
-    param_grid = {'C': [100], 'gamma': [0.1], 'kernel': ['linear']}
+    param_grid = {'C': [1, 10, 100], 'gamma': [0.01, 0.1, 10], 'kernel': ['linear', 'rbf', 'poly', 'sigmoid']}
 
     # Create the GridSearchCV
     grid = GridSearchCV(model, param_grid, refit=True, verbose=3)
