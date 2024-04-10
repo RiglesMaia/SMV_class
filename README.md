@@ -26,5 +26,3 @@ This Python script is designed to train Support Vector Machine (SVM) models for 
 - `README.md`: This README file providing an overview of the project.
 - `requirements.txt`: File containing the list of required Python libraries.
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
