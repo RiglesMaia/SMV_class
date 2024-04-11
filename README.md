@@ -2,12 +2,6 @@
 
 This Python script is designed to train Support Vector Machine (SVM) models for botanical classification using geospatial data, specifically TIFF images and shapefiles. It utilizes the scikit-learn library for model implementation and evaluation.
 
-## Author
-- **R. Maia**
-
-## Date
-- Created: 05/01/2024
-
 ## Usage
 1. Ensure you have Python 3.x installed on your system.
 2. Install the required libraries using `pip install -r requirements.txt`.
@@ -25,4 +19,7 @@ This Python script is designed to train Support Vector Machine (SVM) models for 
 - `svm_model_trainer.py`: Main Python script for training SVM models.
 - `README.md`: This README file providing an overview of the project.
 - `requirements.txt`: File containing the list of required Python libraries.
+
+## License
+This project is licensed under the [MIT License](LICENSE).
 
